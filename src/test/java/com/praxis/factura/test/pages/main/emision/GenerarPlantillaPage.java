@@ -223,37 +223,37 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboTipo,
 					driver.findElement(By.xpath("//*[@id=\"factura:tipoComprobante\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboEmisor);
 			safeSelectOptionOnPrimefacesList(comboEmisor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisor\"]/option[2]")));
 
-			 Thread.sleep(2000);
+			 Thread.sleep(1500);
 			 safeClick(comboSucursal);
 			 safeSelectOptionOnPrimefacesList(comboSucursal,
 			 driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboSerie);
 			safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
 					"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboMetodoPago);
 			safeSelectOptionOnPrimefacesList(comboMetodoPago,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectMetodoPago\"]/option[5]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeSendKeys(txtIva, "16");
 			Thread.sleep(1000);
 			safeSendKeys(txtCantidad, "5");
@@ -263,15 +263,15 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSendKeys(txtValorUnitario, "50");
 			Thread.sleep(1000);
 			safeSendKeys(txtConcepto, "PRODUCTO DE PRUEBA");
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnAgregarConcepto);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnGuardarPlantilla);
 			waitForWebElementDisplayed(messageResponse);
 			responseMessage = messageResponse.getText();
 
 			safeClick(btnAceptarRespuesta);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -287,37 +287,37 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboTipo,
 					driver.findElement(By.xpath("//*[@id=\"factura:tipoComprobante\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboEmisor);
 			safeSelectOptionOnPrimefacesList(comboEmisor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboSucursal);
 			safeSelectOptionOnPrimefacesList(comboSucursal,
 			driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
 			 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboSerie);
 			safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
 					"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboMetodoPago);
 			safeSelectOptionOnPrimefacesList(comboMetodoPago,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectMetodoPago\"]/option[5]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeSendKeys(txtIva, "16");
 			Thread.sleep(1000);
 			safeSendKeys(txtISR, "10");
@@ -329,15 +329,15 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSendKeys(txtValorUnitario, "30");
 			Thread.sleep(1000);
 			safeSendKeys(txtConcepto, "PRODUCTO DE PRUEBA");
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnAgregarConcepto);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnGuardarPlantilla);
 			waitForWebElementDisplayed(messageResponse);
 			responseMessage = messageResponse.getText();
 
 			safeClick(btnAceptarRespuesta);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -353,37 +353,37 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboTipo,
 					driver.findElement(By.xpath("//*[@id=\"factura:tipoComprobante\"]/option[3]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboEmisor);
 			safeSelectOptionOnPrimefacesList(comboEmisor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisor\"]/option[2]")));
 			
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboSucursal);
 			safeSelectOptionOnPrimefacesList(comboSucursal,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
 			 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 		    safeClick(comboSerie);
 			safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
 					"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboMetodoPago);
 			safeSelectOptionOnPrimefacesList(comboMetodoPago,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectMetodoPago\"]/option[5]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeSendKeys(txtIva, "16");
 			Thread.sleep(1000);
 			safeSendKeys(txtCantidad, "3");
@@ -393,15 +393,15 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSendKeys(txtValorUnitario, "25");
 			Thread.sleep(1000);
 			safeSendKeys(txtConcepto, "PRODUCTO DE PRUEBA");
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnAgregarConcepto);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnGuardarPlantilla);
 			waitForWebElementDisplayed(messageResponse);
 			responseMessage = messageResponse.getText();
 
 			safeClick(btnAceptarRespuesta);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -417,37 +417,37 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboTipo,
 					driver.findElement(By.xpath("//*[@id=\"factura:tipoComprobante\"]/option[4]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboEmisor);
 			safeSelectOptionOnPrimefacesList(comboEmisor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboSucursal);
 			safeSelectOptionOnPrimefacesList(comboSucursal,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboSerie);
 				safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
 				"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 				
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboMetodoPago);
 			safeSelectOptionOnPrimefacesList(comboMetodoPago,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectMetodoPago\"]/option[5]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeSendKeys(txtIva, "16");
 			Thread.sleep(1000);
 			safeSendKeys(txtCantidad, "2");
@@ -457,15 +457,15 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSendKeys(txtValorUnitario, "20");
 			Thread.sleep(1000);
 			safeSendKeys(txtConcepto, "PRODUCTO DE PRUEBA");
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnAgregarConcepto);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnGuardarPlantilla);
 			waitForWebElementDisplayed(messageResponse);
 			responseMessage = messageResponse.getText();
 
 			safeClick(btnAceptarRespuesta);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -481,37 +481,37 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboTipo,
 					driver.findElement(By.xpath("//*[@id=\"factura:tipoComprobante\"]/option[5]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboEmisor);
 			safeSelectOptionOnPrimefacesList(comboEmisor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboSucursal);
 			safeSelectOptionOnPrimefacesList(comboSucursal,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboSerie);
 				safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
 				"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboMetodoPago);
 			safeSelectOptionOnPrimefacesList(comboMetodoPago,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectMetodoPago\"]/option[5]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeSendKeys(txtConductor, "Conductor Prueba");
 			Thread.sleep(1000);
 			safeSendKeys(txtVehiculo, "Camion");
@@ -532,10 +532,10 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSendKeys(txtValorUnitario, "150");
 			Thread.sleep(1000);
 			safeSendKeys(txtConcepto, "FLETE");
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnAgregarConcepto);
 
-			/*Thread.sleep(2000);
+			/*Thread.sleep(1500);
 			safeClick(btnAddenda);
 			waitForWebElementDisplayed(txtNumProv);
 			safeSendKeys(txtNumProv, "1234");
@@ -543,13 +543,13 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSendKeys(txtPosicion, "3");
 			safeSendKeys(txtEntrada, "5");
 			safeClick(btnAgregarAddenda);*/
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnGuardarPlantilla);
 			waitForWebElementDisplayed(messageResponse);
 			responseMessage = messageResponse.getText();
 
 			safeClick(btnAceptarRespuesta);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -565,14 +565,20 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboTipo,
 					driver.findElement(By.xpath("//*[@id=\"factura:tipoComprobante\"]/option[6]")));
 
+			Thread.sleep(1500);
 			safeClick(comboEmisorNomina);
 			safeSelectOptionOnPrimefacesList(comboEmisorNomina,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisorNomina\"]/option[2]")));
 
-			/*Thread.sleep(2000);
-			safeClick(comboSucursalNomina);
-			safeSelectOptionOnPrimefacesList(comboSucursalNomina,
-					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursalNomina\"]/option[2]")));*/
+			Thread.sleep(1500);
+			safeClick(comboSucursal);
+			safeSelectOptionOnPrimefacesList(comboSucursal,
+					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
+
+			Thread.sleep(1500);
+			safeClick(comboSerie);
+				safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
+				"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 
 			safeSendKeys(txtDiasPagados, "15");
 
@@ -582,7 +588,7 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeClick(btnPeriodoFin);
 			safeClick(btnDiaFin);
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboMetodoPagoNomina);
 			safeSelectOptionOnPrimefacesList(comboMetodoPagoNomina,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectMetodoPagoNomina\"]/option[5]")));
@@ -601,17 +607,17 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboDepartamento,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectDepartamento\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnConsultar);
 
 			waitForWebElementDisplayed(tblEmpleados);
 			safeClick(selectEmpleado);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnImportar);
 
 			waitForWebElementDisplayed(tblEmpleadosImp);
 			safeClick(selectEmpleadoImp);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnPerDed);
 
 			waitForWebElementDisplayed(btnPercepciones);
@@ -629,11 +635,11 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			Thread.sleep(1000);
 			safeSendKeys(txtImporteGravado, "8000");
 			Thread.sleep(1000);
-			safeSendKeys(txtImporteExento, "2000");
+			safeSendKeys(txtImporteExento, "1500");
 			Thread.sleep(500);
 			safeClick(btnAgregarPercepcion);
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnGuardarPlantillaNomina);
 
 			waitForWebElementDisplayed(btnConfNomina);
@@ -643,7 +649,7 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			responseMessage = messageResponseNomina.getText();
 
 			safeClick(btnAceptarRespuestaNomina);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
@@ -663,27 +669,32 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboEmisor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisor\"]/option[2]")));
 
-			Thread.sleep(2000);
-			safeClick(comboSerie);
-			safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
-					"//*[@id=\"factura:factPan:0:selectSerie\"]/option[" + generateRandomNumberFromAToZ(2, 3) + "]")));
+			Thread.sleep(1500);
+			safeClick(comboSucursal);
+			safeSelectOptionOnPrimefacesList(comboSucursal,
+					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
+			safeClick(comboSerie);
+				safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
+				"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
+
+			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
-					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[3]")));
+					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
-					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[3]")));
+					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(comboMetodoPago);
 			safeSelectOptionOnPrimefacesList(comboMetodoPago,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectMetodoPago\"]/option[5]")));
 
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeSendKeys(txtIvaArrend, "16");
 			Thread.sleep(1000);
 			safeSendKeys(txtCantidadArrend, "4");
@@ -695,15 +706,15 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSendKeys(txtConceptoArrend, "PRODUCTO DE PRUEBA");
 			Thread.sleep(1000);
 			safeSendKeys(txtCuentaPredial, "0123456789");
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnAgregarConceptoArrend);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 			safeClick(btnGuardarPlantilla);
 			waitForWebElementDisplayed(messageResponse);
 			responseMessage = messageResponse.getText();
 
 			safeClick(btnAceptarRespuesta);
-			Thread.sleep(2000);
+			Thread.sleep(1500);
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
