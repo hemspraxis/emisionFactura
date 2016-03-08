@@ -228,10 +228,10 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboEmisor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisor\"]/option[2]")));
 
-			 Thread.sleep(1500);
-			 safeClick(comboSucursal);
-			 safeSelectOptionOnPrimefacesList(comboSucursal,
-			 driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
+			Thread.sleep(1500);
+			safeClick(comboSucursal);
+			safeSelectOptionOnPrimefacesList(comboSucursal,
+					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
 
 			Thread.sleep(1500);
 			safeClick(comboSerie);
@@ -243,7 +243,7 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(1500);
+			Thread.sleep(2500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
@@ -295,7 +295,7 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			Thread.sleep(1500);
 			safeClick(comboSucursal);
 			safeSelectOptionOnPrimefacesList(comboSucursal,
-			driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
+					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
 			 
 			Thread.sleep(1500);
 			safeClick(comboSerie);
@@ -307,7 +307,7 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(1500);
+			Thread.sleep(2500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
@@ -373,7 +373,7 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(1500);
+			Thread.sleep(2500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
@@ -429,15 +429,15 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 
 			Thread.sleep(1500);
 			safeClick(comboSerie);
-				safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
-				"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
+			safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
+					"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 				
 			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(1500);
+			Thread.sleep(2500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
@@ -493,15 +493,15 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 
 			Thread.sleep(1500);
 			safeClick(comboSerie);
-				safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
-				"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
+			safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
+					"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 
 			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(1500);
+			Thread.sleep(2500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
@@ -665,6 +665,7 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 			safeSelectOptionOnPrimefacesList(comboTipo,
 					driver.findElement(By.xpath("//*[@id=\"factura:tipoComprobante\"]/option[7]")));
 
+			Thread.sleep(1500);
 			safeClick(comboEmisor);
 			safeSelectOptionOnPrimefacesList(comboEmisor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisor\"]/option[2]")));
@@ -676,15 +677,15 @@ public class GenerarPlantillaPage extends Page<GenerarPlantillaPage> {
 
 			Thread.sleep(1500);
 			safeClick(comboSerie);
-				safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
-				"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
+			safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
+					"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
 
 			Thread.sleep(1500);
 			safeClick(comboGrupos);
 			safeSelectOptionOnPrimefacesList(comboGrupos,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectGrupos\"]/option[2]")));
 
-			Thread.sleep(1500);
+			Thread.sleep(2500);
 			safeClick(comboReceptor);
 			safeSelectOptionOnPrimefacesList(comboReceptor,
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectReceptor\"]/option[2]")));
