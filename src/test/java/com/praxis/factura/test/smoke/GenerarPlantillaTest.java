@@ -71,7 +71,7 @@ public class GenerarPlantillaTest extends WebDriverSetup {
         System.out.println("----------------CASO GENERAR PLANTILLA CARTA PORTE COMPLETE---------------------");
 	}
 	
-	@Test(enabled = false, priority = 7, groups = {SMOKE, PLANTILLA})
+	@Test(enabled = true, priority = 7, groups = {SMOKE, PLANTILLA})
 	public void generarPlantillaNomina() {
 		testCase("generarPlantillaNomina");
 		MainPage mainPage = new MainPage(driver).refreshPage();
@@ -80,7 +80,7 @@ public class GenerarPlantillaTest extends WebDriverSetup {
         System.out.println("----------------CASO GENERAR PLANTILLA NOMINA COMPLETE---------------------");
 	}
 	
-	@Test(enabled = false, priority = 8, groups = {SMOKE, PLANTILLA})
+	@Test(enabled = true, priority = 8, groups = {SMOKE, PLANTILLA})
 	public void generarPlantillaReciboArrendamiento() {
 		testCase("generarPlantillaReciboArrendamiento");
 		MainPage mainPage = new MainPage(driver).refreshPage();

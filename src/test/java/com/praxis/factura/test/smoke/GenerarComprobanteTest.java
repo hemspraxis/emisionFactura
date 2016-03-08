@@ -71,7 +71,7 @@ public class GenerarComprobanteTest extends WebDriverSetup {
         System.out.println("----------------CASO GENERAR COMPROBANTE CARTA PORTE COMPLETE---------------------");
 	}
 	
-	@Test(enabled = false, priority = 7, groups = {SMOKE, COMPROBANTE})
+	@Test(enabled = true, priority = 7, groups = {SMOKE, COMPROBANTE})
 	public void generarComprobanteNomina() {
 		testCase("generarComprobanteNomina");
 		MainPage mainPage = new MainPage(driver).refreshPage();
@@ -80,7 +80,7 @@ public class GenerarComprobanteTest extends WebDriverSetup {
         System.out.println("----------------CASO GENERAR COMPROBANTE NOMINA COMPLETE---------------------");
 	}
 	
-	@Test(enabled = false, priority = 8, groups = {SMOKE, COMPROBANTE})
+	@Test(enabled = true, priority = 8, groups = {SMOKE, COMPROBANTE})
 	public void generarComprobanteReciboArrendamiento() {
 		testCase("generarComprobanteReciboArrendamiento");
 		MainPage mainPage = new MainPage(driver).refreshPage();
