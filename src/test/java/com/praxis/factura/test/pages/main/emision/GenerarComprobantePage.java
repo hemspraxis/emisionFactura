@@ -49,6 +49,9 @@ public class GenerarComprobantePage extends Page<GenerarComprobantePage> {
 
 	@FindBy(how = How.ID, using = "factura:factPan:0:selectSerie")
 	private WebElement comboSerie;
+	
+	@FindBy(how = How.ID, using = "factura:factPan:0:selectSerieNomina")
+	private WebElement comboSerieNomina;
 
 	@FindBy(how = How.ID, using = "factura:factPan:0:selectGrupos")
 	private WebElement comboGrupos;
@@ -152,7 +155,7 @@ public class GenerarComprobantePage extends Page<GenerarComprobantePage> {
 	@FindBy(how = How.ID, using = "factura:factPan:0:tablaBuscaEmpleados")
 	private WebElement tblEmpleados;
 
-	@FindBy(how = How.ID, using = "factura:factPan:0:tablaBuscaEmpleados:0:j_id4231")
+	@FindBy(how = How.ID, using = "factura:factPan:0:tablaBuscaEmpleados:0:j_id4233")
 	private WebElement selectEmpleado;
 
 	@FindBy(how = How.ID, using = "factura:factPan:0:btnImportarEmpleadoBuscado")
@@ -161,7 +164,7 @@ public class GenerarComprobantePage extends Page<GenerarComprobantePage> {
 	@FindBy(how = How.ID, using = "factura:factPan:0:tablaEmpleados")
 	private WebElement tblEmpleadosImp;
 
-	@FindBy(how = How.ID, using = "factura:factPan:0:tablaEmpleados:0:j_id4380")
+	@FindBy(how = How.ID, using = "factura:factPan:0:tablaEmpleados:0:j_id4382")
 	private WebElement selectEmpleadoImp;
 
 	@FindBy(how = How.ID, using = "factura:factPan:0:tablaEmpleados:0:btnShowPercepciones")
@@ -361,7 +364,7 @@ public class GenerarComprobantePage extends Page<GenerarComprobantePage> {
 			Thread.sleep(1500);
 			safeClick(comboSucursal);
 			safeSelectOptionOnPrimefacesList(comboSucursal,
-					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
+					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[2]")));
 
 			Thread.sleep(1500);
 			safeClick(comboSerie);
@@ -575,14 +578,14 @@ public class GenerarComprobantePage extends Page<GenerarComprobantePage> {
 					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectEmisorNomina\"]/option[2]")));
 
 			Thread.sleep(1500);
-			safeClick(comboSucursal);
-			safeSelectOptionOnPrimefacesList(comboSucursal,
-					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursal\"]/option[1]")));
+			safeClick(comboSucursalNomina);
+			safeSelectOptionOnPrimefacesList(comboSucursalNomina,
+					driver.findElement(By.xpath("//*[@id=\"factura:factPan:0:selectSucursalNomina\"]/option[1]")));
 
 			Thread.sleep(1500);
-			safeClick(comboSerie);
-				safeSelectOptionOnPrimefacesList(comboSerie, driver.findElement(By.xpath(
-				"//*[@id=\"factura:factPan:0:selectSerie\"]/option[1]")));
+			safeClick(comboSerieNomina);
+				safeSelectOptionOnPrimefacesList(comboSerieNomina, driver.findElement(By.xpath(
+				"//*[@id=\"factura:factPan:0:selectSerieNomina\"]/option[1]")));
 
 			safeSendKeys(txtDiasPagados, "15");
 

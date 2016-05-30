@@ -8,6 +8,7 @@ import org.testng.Assert;
 import org.testng.annotations.Test;
 
 import com.praxis.factura.test.WebDriverSetup;
+import com.praxis.factura.test.common.util.EmailSend;
 import com.praxis.factura.test.dataprovider.SmokeTestDP;
 import com.praxis.factura.test.pages.main.LogInPage;
 import com.praxis.factura.test.pages.main.MainPageRecepcion;
@@ -44,4 +45,14 @@ public class ImportarComprobantesTest extends WebDriverSetup {
         System.out.println("----------------CASO IMPORTAR ZIP COMPROBANTES COMPLETE---------------------");
 	}
 	
+	@Test(enabled = false, priority = 3, groups = {SMOKE, COMPROBANTE})
+    public void testSendMailComprobantes() {
+		testCase("sendEmailComprobantes");
+		EmailSend emailSend = new EmailSend();
+		Assert.assertNotNull(emailSend.send("login", "java.surielhm@gmail.com",
+                "password", "Hernandez92", "to", "usuariotst@bisnet.com.mx", "subject", "Prueba de email",
+                "body", "Esto es una prueba de envio de correos"));
+		System.out.println("----------------CASO SEND EMAIL COMPROBANTES COMPLETE---------------------");
+    }
+
 }
