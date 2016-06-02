@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test All Smoke" parallel="false">
+	<listeners>
+	   <listener class-name="org.uncommons.reportng.HTMLReporter" />
+	</listeners>
+	
+	<test name="REGISTRAR_USUARIO">
+		<classes>
+			<class name="com.praxis.factura.test.smoke.RegistrarUsuarioTest" />
+		</classes>
+	</test>
+	
+</suite>

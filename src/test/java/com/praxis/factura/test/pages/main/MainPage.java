@@ -42,4 +42,5 @@ public class MainPage extends Page<MainPage>{
 		action.moveToElement(generarComprobante).click().perform();
 		return new GenerarPlantillaPage(driver).loadPage();
 	}
+
 }
