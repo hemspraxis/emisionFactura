@@ -102,8 +102,9 @@ public class EmailSend {
         // Se compone el adjunto con la imagen
         BodyPart adjunto = new MimeBodyPart();
         adjunto.setDataHandler(
-            new DataHandler(new FileDataSource("/home/hems/Documentos/prueba.txt")));
-        adjunto.setFileName("prueba.txt");
+            new DataHandler(new FileDataSource("/home/praxis/Documentos/edmundo 3.zip")));
+        	//new DataHandler(new FileDataSource("/home/hems/Documentos/edmundo 3.zip")));
+        adjunto.setFileName("edmundo 3.zip");
         
         // Una MultiParte para agrupar texto e imagen.
         MimeMultipart multiParte = new MimeMultipart();

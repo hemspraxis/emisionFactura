@@ -50,8 +50,8 @@ public class ImportarComprobantesTest extends WebDriverSetup {
 		testCase("sendEmailComprobantes");
 		EmailSend emailSend = new EmailSend();
 		Assert.assertNotNull(emailSend.send("login", "java.surielhm@gmail.com",
-                "password", "Hernandez92", "to", "usuariotst@bisnet.com.mx", "subject", "Prueba de email",
-                "body", "Esto es una prueba de envio de correos"));
+                "password", "Hernandez92", "to", "usuariotst@bisnet.com.mx", "subject", "Comprobantes de Prueba",
+                "body", "Esto es una prueba de envio de comprobantes"));
 		System.out.println("----------------CASO SEND EMAIL COMPROBANTES COMPLETE---------------------");
     }
 

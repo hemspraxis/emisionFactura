@@ -33,8 +33,8 @@ public class ImportarComprobantePage extends Page<ImportarComprobantePage> {
 		try {
 			waitForWebElementDisplayed(iframeUpload);
 			driver.switchTo().frame(iframeUpload);
-			//btnUpload.sendKeys("/home/praxis/Documentos/CCG640626CE7FA0000000101_2016-04-27 16-59-32.xml");
-			btnUpload.sendKeys("/home/hems/Documentos/CCG640626CE7FA0000000101_2016-04-27 16-59-32.xml");
+			btnUpload.sendKeys("/home/praxis/Documentos/CCG640626CE7FA0000000101_2016-04-27 16-59-32.xml");
+			//btnUpload.sendKeys("/home/hems/Documentos/CCG640626CE7FA0000000101_2016-04-27 16-59-32.xml");
 			driver.switchTo().defaultContent();
 			waitForWebElementDisplayed(tblResultadoImportacion);
 			System.out.println(resultadoImportacion.getText());
@@ -52,8 +52,8 @@ public class ImportarComprobantePage extends Page<ImportarComprobantePage> {
 		try {
 			waitForWebElementDisplayed(iframeUpload);
 			driver.switchTo().frame(iframeUpload);
-			//btnUpload.sendKeys("/home/praxis/Documentos/edmundo 3.zip");
-			btnUpload.sendKeys("/home/hems/Documentos/edmundo 3.zip");
+			btnUpload.sendKeys("/home/praxis/Documentos/edmundo 3.zip");
+			//btnUpload.sendKeys("/home/hems/Documentos/edmundo 3.zip");
 			driver.switchTo().defaultContent();
 			waitForWebElementDisplayed(tblResultadoImportacion);
 			int rowCount = driver
